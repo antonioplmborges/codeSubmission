@@ -13,6 +13,8 @@
 		7CA970991E8A006E007CA6B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CA970981E8A006E007CA6B3 /* Assets.xcassets */; };
 		7CA9709C1E8A006E007CA6B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA9709A1E8A006E007CA6B3 /* LaunchScreen.storyboard */; };
 		7CA970A71E8A006E007CA6B3 /* currencyConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA970A61E8A006E007CA6B3 /* currencyConverterTests.swift */; };
+		7CBAF8BE1E8C2DA40070975C /* RateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBAF8BC1E8C2DA40070975C /* RateTableViewCell.swift */; };
+		7CBAF8BF1E8C2DA40070975C /* RateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CBAF8BD1E8C2DA40070975C /* RateTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		7CA970A21E8A006E007CA6B3 /* currencyConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = currencyConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CA970A61E8A006E007CA6B3 /* currencyConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = currencyConverterTests.swift; sourceTree = "<group>"; };
 		7CA970A81E8A006E007CA6B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CBAF8BC1E8C2DA40070975C /* RateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateTableViewCell.swift; sourceTree = "<group>"; };
+		7CBAF8BD1E8C2DA40070975C /* RateTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RateTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				7CA970981E8A006E007CA6B3 /* Assets.xcassets */,
 				7CA9709A1E8A006E007CA6B3 /* LaunchScreen.storyboard */,
 				7CA9709D1E8A006E007CA6B3 /* Info.plist */,
+				7CBAF8BC1E8C2DA40070975C /* RateTableViewCell.swift */,
+				7CBAF8BD1E8C2DA40070975C /* RateTableViewCell.xib */,
 			);
 			path = currencyConverter;
 			sourceTree = "<group>";
@@ -180,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CA9709C1E8A006E007CA6B3 /* LaunchScreen.storyboard in Resources */,
+				7CBAF8BF1E8C2DA40070975C /* RateTableViewCell.xib in Resources */,
 				7CA970991E8A006E007CA6B3 /* Assets.xcassets in Resources */,
 				7CA970971E8A006E007CA6B3 /* Main.storyboard in Resources */,
 			);
@@ -201,6 +208,7 @@
 			files = (
 				7CA970941E8A006E007CA6B3 /* ViewController.swift in Sources */,
 				7CA970921E8A006E007CA6B3 /* AppDelegate.swift in Sources */,
+				7CBAF8BE1E8C2DA40070975C /* RateTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +414,7 @@
 				7CA970AD1E8A006E007CA6B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CA970AE1E8A006E007CA6B3 /* Build configuration list for PBXNativeTarget "currencyConverterTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +423,7 @@
 				7CA970B01E8A006E007CA6B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
